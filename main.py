@@ -1,7 +1,6 @@
 import logging
 import asyncio
 from aiogram import Bot, Dispatcher, executor, types
-from aiogram.types import chat
 
 bot = Bot(token=f"{open('token', 'r').read()}")
 dp = Dispatcher(bot)
